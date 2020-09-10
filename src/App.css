@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-image: url("https://wallpapercave.com/wp/wp2445766.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: whitesmoke;
+}
+
+.get-cocktail-button{
+  background: none;
+  border-style: solid;
+  border-color: whitesmoke;
+  color: white;
+  text-align: center;
+  min-height: 100%;
+  min-width: 100%;
+
+}
+
+
+.header{
+  text-align: center;
+  bottom: 10%;
+  top: 100%;
+}
+
+.Nav-Container {
+
+}
+.Nav-item {
+/*  border-color: navy;
+  border-style: solid;*/
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  min-height: 10vh;
+  /*
+  border-color: cadetblue;
+  border-style: solid;*/
+
+}
+
+
+.cocktail-thumb{
+  height: 45%;
+  width: 45%;
+}
