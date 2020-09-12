@@ -7,6 +7,8 @@ This app suggests a random cocktail (both alcoholic _and_ non-alcoholic) for you
 
 Try one today and never have a boring drink again.
 
+### Install:
+To install run `npm install`
 ### HOW TO RUN
 
 To run: `npm start`
