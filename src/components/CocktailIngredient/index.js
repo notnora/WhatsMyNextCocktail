@@ -12,6 +12,6 @@ import './style.css'
     }
 
     return(
-        <p>{props.ingredient}  {props.measure}</p>
+        <p className="ingredient-list">{props.ingredient}  {props.measure}</p>
     );
  };

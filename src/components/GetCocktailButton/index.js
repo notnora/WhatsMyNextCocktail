@@ -1,5 +1,6 @@
 import React from "react";
 import './style.css'
+import {Button} from '@material-ui/core'
 
 export const GetCocktailButton = (props) => {
     /**
@@ -32,12 +33,14 @@ export const GetCocktailButton = (props) => {
 
     return (
         <div>
-          <button
+          <Button
               className="get-cocktail-button"
-            onClick={() => {handleClick()}}
+              variant="contained"
+              color="default"
+              onClick={() => {handleClick()}}
           >
             {isLoading ? 'Loading…' : props.text}
-          </button>
+          </Button>
 
         </div>
     );

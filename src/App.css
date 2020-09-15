@@ -29,7 +29,10 @@
   min-width: 100%;
 
 }
-
+.cocktail-display{
+  max-height: 30%;
+  max-width: 40%;
+}
 
 .header{
   text-align: center;
